@@ -1,0 +1,33 @@
+From: Priya Sharma <priya.sharma@acme-supplies.com>
+To: accounts@example.com
+Subject: Invoice INV-2291 for October
+Date: Mon, 16 Nov 2026 10:02:11 +0530
+Message-ID: <inv2291@acme-supplies.com>
+Authentication-Results:
+ mx.example.com; dkim=pass header.d=acme-supplies.com; spf=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2480832880722723753=="
+
+--===============2480832880722723753==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Please find attached invoice INV-2291 for October deliveries.
+
+Payment terms are 30 days as usual.
+
+Regards,
+Priya Sharma
+Acme Supplies Pvt Ltd
+
+--===============2480832880722723753==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_INV-2291.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQgc2FtcGxlIGludm9pY2U=
+
+--===============2480832880722723753==--

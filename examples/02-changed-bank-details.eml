@@ -1,0 +1,43 @@
+From: Priya Sharma <billing@acme-supplies.net>
+Reply-To: finance@intl-collect.example
+To: accounts@example.com
+Subject: Re: Invoice INV-2291 for October
+Date: Mon, 16 Nov 2026 18:45:03 +0530
+Message-ID: <9f21@acme-supplies.net>
+In-Reply-To: <inv2291@acme-supplies.com>
+Authentication-Results:
+ mx.example.com; spf=fail smtp.mailfrom=acme-supplies.net; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8249171362028137035=="
+
+--===============8249171362028137035==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Due to a banking migration our bank details have changed. Please update the r=
+emittance
+using the new account below and pay before close of business today, it is urg=
+ent.
+
+Account name: Acme Supplies Pvt Ltd
+Account number: 445566778899
+Sort code: 12-34-56
+IBAN: GB33BUKB20201555555555
+
+Invoice copy attached for reference. Keep this confidential for now, no need =
+to call to verify.
+
+Regards,
+Priya Sharma
+
+--===============8249171362028137035==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_INV-2291-REVISED.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQgcmV2aXNlZCBpbnZvaWNl
+
+--===============8249171362028137035==--
